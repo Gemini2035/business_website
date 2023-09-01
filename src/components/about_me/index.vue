@@ -1,14 +1,13 @@
 <!--
  * @Date: 2023-08-13 16:27:19
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-13 21:09:48
+ * @LastEditTime: 2023-09-01 14:54:16
  * @FilePath: /business-website/src/components/about_me/index.vue
 -->
 <script lang="ts" setup>
 import DataShow from './data_show.vue';
 import Company from './company.vue';
 import EcoSystem from './eco_system.vue';
-import Team from './team.vue';
 import Honer from './honer.vue';
 </script>
 

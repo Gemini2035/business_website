@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-08-29 16:46:27
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-29 18:47:56
+ * @LastEditTime: 2023-09-01 14:50:01
  * @FilePath: /business-website/src/components/overseas_student_part/air_info.vue
 -->
 <script lang="ts" setup>
@@ -99,7 +99,10 @@ const infoData: Array<any> = [
 <template>
     <div class="info-container">
         <div v-for="(item, index) in infoData" :key="index" class="state-container">
-            <h1 class="state-title">{{ item.state }}</h1>
+            <div class="info-title">
+                <img src="assets/overseas_student/earth.png" alt="">
+                <h1 class="state-title">{{ item.state }}</h1>
+            </div>
             <ul class="ticket-list">
                 <li v-for="(ticket, index) in item.ticketList" :key="index" class="ticket-item">
                     <p>{{ ticket.title }}</p>
@@ -110,21 +113,34 @@ const infoData: Array<any> = [
     </div>
 </template>
 
-<style lang="scss" scoped>.state-container {
+<style lang="scss" scoped>
+.state-container {
     width: 80%;
     background-color: #fff;
     margin: 50px auto;
     padding: 20px;
     border-radius: 3px;
 
-    .state-title {
-        padding-bottom: 10px;
+    .info-title {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 15px;
         border-bottom: 1px dashed;
-        font-size: 36px;
+
+        img {
+            height: 36px;
+            width: auto;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-left: 10px;
+        }
     }
 
     .ticket-list {
-        width: 90%;
+        width: 98%;
         margin: 10px auto;
 
         .ticket-item {

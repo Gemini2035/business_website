@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-08-13 15:46:33
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-29 18:55:06
+ * @LastEditTime: 2023-09-01 15:02:10
  * @FilePath: /business-website/src/components/overseas_student_part/index.vue
 -->
 <script lang="ts" setup>
@@ -15,7 +15,7 @@ const isDetail = ref(false);
         <img src="/assets/overseas_student/banner-lxs.jpg" alt="" class="placement-img">
         <div class="ticket-info">
             <div v-if="isDetail">222</div>
-            <AirInfo v-else @click="isDetail = true" />
+            <AirInfo v-else />
         </div>
     </div>
 </template>

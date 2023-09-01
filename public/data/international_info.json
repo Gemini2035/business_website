@@ -1,0 +1,582 @@
+[
+    {
+        "area": "America",
+        "ticketList": [
+            {
+                "startCity": "纽约",
+                "endCity": "福州",
+                "timeInfo": "15:00-19:25",
+                "week": "周一/周三",
+                "flightNumber": "MU588"
+            },
+            {
+                "startCity": "广州",
+                "endCity": "纽约",
+                "timeInfo": "19:00-21:10",
+                "week": "周四",
+                "flightNumber": "CZ699"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "纽约",
+                "timeInfo": "11:50-17:30",
+                "week": "周一/周二",
+                "flightNumber": "MU588"
+            },
+            {
+                "startCity": "西雅图",
+                "endCity": "上海",
+                "timeInfo": "17:50-00:15",
+                "week": "周三/周四",
+                "flightNumber": "EK362"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "旧金山",
+                "timeInfo": "22:35-16:35",
+                "week": "周一/周四/周六/周日",
+                "flightNumber": "UA858"
+            },
+            {
+                "startCity": "温哥华",
+                "endCity": "北京",
+                "timeInfo": "13:50-15:40",
+                "week": "周日",
+                "flightNumber": "CA992"
+            },
+            {
+                "startCity": "多伦多",
+                "endCity": "上海",
+                "timeInfo": "16:25-18:55",
+                "week": "周六",
+                "flightNumber": "MU208"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "多伦多",
+                "timeInfo": "17:50-1:55",
+                "week": "周一/周五",
+                "flightNumber": "AC28"
+            },
+            {
+                "startCity": "多伦多",
+                "endCity": "北京",
+                "timeInfo": "17:20-21:35",
+                "week": "周三/周日",
+                "flightNumber": "HU7976"
+            },
+            {
+                "startCity": "温哥华",
+                "endCity": "广州",
+                "timeInfo": "15:25-19:10",
+                "week": "",
+                "flightNumber": ""
+            },
+            {
+                "startCity": "多伦多",
+                "endCity": "广州",
+                "timeInfo": "10:15-11:45",
+                "week": "周五",
+                "flightNumber": "CZ311"
+            },
+            {
+                "startCity": "北京",
+                "endCity": "洛杉矶",
+                "timeInfo": "14:50-10:50",
+                "week": "周日",
+                "flightNumber": "CA987"
+            },
+            {
+                "startCity": "深圳",
+                "endCity": "洛杉矶",
+                "timeInfo": "14:50-8:40",
+                "week": "周二",
+                "flightNumber": "QZ372"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "底特律",
+                "timeInfo": "10:05-13:30",
+                "week": "周三/周日",
+                "flightNumber": "DL284"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "西雅图",
+                "timeInfo": "9:50-8:15",
+                "week": "周四/周六",
+                "flightNumber": "DL288"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "达拉斯",
+                "timeInfo": "18:20-20:00",
+                "week": "周二/周五",
+                "flightNumber": "AA128"
+            },
+            {
+                "startCity": "洛杉矶",
+                "endCity": "深圳",
+                "timeInfo": "14:10-21:25",
+                "week": "周二",
+                "flightNumber": "CA770"
+            },
+            {
+                "startCity": "底特律",
+                "endCity": "上海",
+                "timeInfo": "21:55-6:00",
+                "week": "周一/周五",
+                "flightNumber": "DL283"
+            },
+            {
+                "startCity": "旧金山",
+                "endCity": "上海",
+                "timeInfo": "9:05-17:00",
+                "week": "周三/周五/周六/周日",
+                "flightNumber": "UA857"
+            },
+            {
+                "startCity": "达拉斯",
+                "endCity": "上海",
+                "timeInfo": "10:35-14:50",
+                "week": "周一/周四",
+                "flightNumber": "AA127"
+            }
+        ]
+    },
+    {
+        "area": "Europe",
+        "ticketList": [
+            {
+                "startCity": "巴黎",
+                "endCity": "上海",
+                "timeInfo": "21:20-14:40",
+                "week": "周日",
+                "flightNumber": "MU570"
+            },
+            {
+                "startCity": "北京",
+                "endCity": "巴黎",
+                "timeInfo": "13:20-12:05",
+                "week": "周三",
+                "flightNumber": "CA933"
+            },
+            {
+                "startCity": "天津",
+                "endCity": "米兰",
+                "timeInfo": "22:20-5:40",
+                "week": "周六",
+                "flightNumber": "NO947"
+            },
+            {
+                "startCity": "法兰克福",
+                "endCity": "上海",
+                "timeInfo": "13:25-7:25",
+                "week": "周二",
+                "flightNumber": "MU220"
+            },
+            {
+                "startCity": "香港",
+                "endCity": "苏黎世",
+                "timeInfo": "13:50-15:40",
+                "week": "周一",
+                "flightNumber": "LX139"
+            },
+            {
+                "startCity": "莫斯科",
+                "endCity": "厦门",
+                "timeInfo": "17:00-8:00",
+                "week": "周四",
+                "flightNumber": "ZF1678"
+            },
+            {
+                "startCity": "伦敦",
+                "endCity": "上海",
+                "timeInfo": "21:20-5:40",
+                "week": "周一",
+                "flightNumber": "MU552"
+            },
+            {
+                "startCity": "广州",
+                "endCity": "法兰克福",
+                "timeInfo": "19:20-0:15",
+                "week": "周五",
+                "flightNumber": "CZ331"
+            },
+            {
+                "startCity": "明斯克",
+                "endCity": "北京",
+                "timeInfo": "19:20-0:15",
+                "week": "周六",
+                "flightNumber": "EK362"
+            },
+            {
+                "startCity": "维也纳",
+                "endCity": "北京",
+                "timeInfo": "14:30-6:55",
+                "week": "周六",
+                "flightNumber": "CA842"
+            },
+            {
+                "startCity": "阿姆斯特丹",
+                "endCity": "广州",
+                "timeInfo": "12:40-7:00",
+                "week": "周五",
+                "flightNumber": "MU772"
+            },
+            {
+                "startCity": "北京",
+                "endCity": "巴黎",
+                "timeInfo": "22:20-5:40",
+                "week": "周三",
+                "flightNumber": "CA933"
+            },
+            {
+                "startCity": "杭州",
+                "endCity": "法兰克福",
+                "timeInfo": "14:10-21:10",
+                "week": "周日",
+                "flightNumber": "MU7157"
+            },
+            {
+                "startCity": "北京",
+                "endCity": "伦敦",
+                "timeInfo": "22:35-16:35",
+                "week": "周一",
+                "flightNumber": "CA937"
+            },
+            {
+                "startCity": "巴黎",
+                "endCity": "广州",
+                "timeInfo": "13:00-7:35",
+                "week": "周四",
+                "flightNumber": "CZ348"
+            },
+            {
+                "startCity": "伦敦",
+                "endCity": "青岛",
+                "timeInfo": "22:00-16:50",
+                "week": "周五",
+                "flightNumber": "JD432"
+            },
+            {
+                "startCity": "苏黎世",
+                "endCity": "香港",
+                "timeInfo": "17:20-21:35",
+                "week": "周一/周二/周三/周五",
+                "flightNumber": "LX138"
+            },
+            {
+                "startCity": "莫斯科",
+                "endCity": "北京",
+                "timeInfo": "22:55-11:55",
+                "week": "周五",
+                "flightNumber": "CA910"
+            },
+            {
+                "startCity": "罗马",
+                "endCity": "成都",
+                "timeInfo": "22:35-16:35",
+                "week": "周二",
+                "flightNumber": "3U3896"
+            },
+            {
+                "startCity": "里斯本",
+                "endCity": "杭州",
+                "timeInfo": "11:50-9:20",
+                "week": "周六",
+                "flightNumber": "JD436"
+            }
+        ]
+    },
+    {
+        "area": "Asia",
+        "ticketList": [
+            {
+                "startCity": "曼谷",
+                "endCity": "天津",
+                "timeInfo": "14:30-19:50",
+                "week": "周四",
+                "flightNumber": "MF870"
+            },
+            {
+                "startCity": "达卡",
+                "endCity": "广州",
+                "timeInfo": "00:15-5:00",
+                "week": "周四",
+                "flightNumber": "CZ392"
+            },
+            {
+                "startCity": "金边",
+                "endCity": "成都",
+                "timeInfo": "6:30-10:30",
+                "week": "周一/周三",
+                "flightNumber": "KR961"
+            },
+            {
+                "startCity": "吉隆坡",
+                "endCity": "广州",
+                "timeInfo": "21:25-1:40",
+                "week": "周三",
+                "flightNumber": "AK116"
+            },
+            {
+                "startCity": "广州",
+                "endCity": "多哈",
+                "timeInfo": "18:00-22:15",
+                "week": "周日",
+                "flightNumber": "QR875"
+            },
+            {
+                "startCity": "雅加达",
+                "endCity": "杭州",
+                "timeInfo": "8:00-15:30",
+                "week": "周三",
+                "flightNumber": "SJ3184"
+            },
+            {
+                "startCity": "吉隆坡",
+                "endCity": "厦门",
+                "timeInfo": "15:00-19:20",
+                "week": "周一/周五",
+                "flightNumber": "MF848"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "新加坡",
+                "timeInfo": "18:35-9:40",
+                "week": "周四",
+                "flightNumber": "MU567"
+            },
+            {
+                "startCity": "伊斯坦布尔",
+                "endCity": "西安",
+                "timeInfo": "1:55-16:10",
+                "week": "周五",
+                "flightNumber": "TK196"
+            },
+            {
+                "startCity": "昆明",
+                "endCity": "曼谷",
+                "timeInfo": "15:15-21:00",
+                "week": "周四",
+                "flightNumber": "8L802"
+            },
+            {
+                "startCity": "新加坡",
+                "endCity": "深圳",
+                "timeInfo": "7:25-10:50",
+                "week": "周三/周日",
+                "flightNumber": "SQ846"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "东京",
+                "timeInfo": "11:00-14:25",
+                "week": "周四",
+                "flightNumber": "CA929"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "吉隆坡",
+                "timeInfo": "21:20-6:30",
+                "week": "周日",
+                "flightNumber": "FM885"
+            },
+            {
+                "startCity": "北京",
+                "endCity": "马尼拉",
+                "timeInfo": "2:05-14:25",
+                "week": "周三",
+                "flightNumber": "CA179"
+            },
+            {
+                "startCity": "首尔",
+                "endCity": "天津",
+                "timeInfo": "9:10-10:10",
+                "week": "周二/周六",
+                "flightNumber": "KE805"
+            },
+            {
+                "startCity": "首尔",
+                "endCity": "南京",
+                "timeInfo": "22:35-16:35",
+                "week": "周二",
+                "flightNumber": "KE101"
+            },
+            {
+                "startCity": "大阪",
+                "endCity": "上海",
+                "timeInfo": "22:35-16:35",
+                "week": "周二",
+                "flightNumber": "HO1334"
+            },
+            {
+                "startCity": "青岛",
+                "endCity": "东京",
+                "timeInfo": "13:55-17:55",
+                "week": "周二/周三/周五/周日",
+                "flightNumber": "NH928"
+            },
+            {
+                "startCity": "青岛",
+                "endCity": "首尔",
+                "timeInfo": "10:55-13:35",
+                "week": "周日",
+                "flightNumber": "KE846"
+            },
+            {
+                "startCity": "新加坡",
+                "endCity": "厦门",
+                "timeInfo": "22:35-16:35",
+                "week": "周四",
+                "flightNumber": "SQ868"
+            }
+        ]
+    },
+    {
+        "area": "Others",
+        "ticketList": [
+            {
+                "startCity": "迪拜",
+                "endCity": "广州",
+                "timeInfo": "2:50-13:50",
+                "week": "周日",
+                "flightNumber": "EK362"
+            },
+            {
+                "startCity": "长沙",
+                "endCity": "内罗毕",
+                "timeInfo": "12:15-18:30",
+                "week": "周三",
+                "flightNumber": "CZ6043"
+            },
+            {
+                "startCity": "伊斯兰堡",
+                "endCity": "武汉",
+                "timeInfo": "22:15-7:00",
+                "week": "周一/周五",
+                "flightNumber": "CZ8140"
+            },
+            {
+                "startCity": "利雅得",
+                "endCity": "广州",
+                "timeInfo": "4:25-16:50",
+                "week": "周四",
+                "flightNumber": "SV884"
+            },
+            {
+                "startCity": "阿布扎比",
+                "endCity": "上海",
+                "timeInfo": "1:55-13:50",
+                "week": "周一",
+                "flightNumber": "EY862"
+            },
+            {
+                "startCity": "内罗毕",
+                "endCity": "广州",
+                "timeInfo": "17:00-9:05",
+                "week": "周一/周五",
+                "flightNumber": "KQ882"
+            },
+            {
+                "startCity": "阿尔及尔",
+                "endCity": "成都",
+                "timeInfo": "11:35-5:55",
+                "week": "周三",
+                "flightNumber": "MU772"
+            },
+            {
+                "startCity": "广州",
+                "endCity": "开罗",
+                "timeInfo": "23:30-13:00",
+                "week": "周五",
+                "flightNumber": "MS959"
+            },
+            {
+                "startCity": "卡拉奇",
+                "endCity": "北京",
+                "timeInfo": "23:55-9:40",
+                "week": "周六",
+                "flightNumber": "CA946"
+            },
+            {
+                "startCity": "北京",
+                "endCity": "迪拜",
+                "timeInfo": "17:45-23:15",
+                "week": "周二",
+                "flightNumber": "CA941"
+            },
+            {
+                "startCity": "卡拉奇",
+                "endCity": "北京",
+                "timeInfo": "22:20-6:05",
+                "week": "周二",
+                "flightNumber": "CA946"
+            },
+            {
+                "startCity": "北京",
+                "endCity": "约翰内斯堡",
+                "timeInfo": "11:45-18:00",
+                "week": "周三",
+                "flightNumber": "CA867"
+            },
+            {
+                "startCity": "开罗",
+                "endCity": "成都",
+                "timeInfo": "11:25-17:20",
+                "week": "周二",
+                "flightNumber": "3U3868"
+            },
+            {
+                "startCity": "上海",
+                "endCity": "亚的斯亚贝巴",
+                "timeInfo": "11:55-18:10",
+                "week": "周二",
+                "flightNumber": "ET685"
+            },
+            {
+                "startCity": "多哈",
+                "endCity": "广州",
+                "timeInfo": "22:35-16:35",
+                "week": "周日",
+                "flightNumber": "QR874"
+            },
+            {
+                "startCity": "广州",
+                "endCity": "内罗毕",
+                "timeInfo": "21:40-6:05",
+                "week": "周二/周六",
+                "flightNumber": "KQ887"
+            },
+            {
+                "startCity": "内罗毕",
+                "endCity": "长沙",
+                "timeInfo": "17:10-9:10",
+                "week": "周三",
+                "flightNumber": "CZ6044"
+            },
+            {
+                "startCity": "约翰内斯堡",
+                "endCity": "北京",
+                "timeInfo": "22:35-16:35",
+                "week": "周三",
+                "flightNumber": "CZ868"
+            },
+            {
+                "startCity": "杭州",
+                "endCity": "开罗",
+                "timeInfo": "23:00-5:00",
+                "week": "周三/周日",
+                "flightNumber": "MS954"
+            },
+            {
+                "startCity": "亚的斯亚贝巴",
+                "endCity": "上海",
+                "timeInfo": "0:50-16:30",
+                "week": "周二",
+                "flightNumber": "ET684"
+            }
+        ]
+    }
+]
