@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-08-11 18:18:14
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-15 12:43:15
+ * @LastEditTime: 2023-09-01 12:19:53
  * @FilePath: /business-website/src/components/header.vue
 -->
 <script setup lang="ts">
@@ -16,16 +16,17 @@ const headerData: Array<{ title: string, key: number, icon: string }> = [
     { title: '首页', key: 0, icon: '/assets/header/icon-index.png' },
     { title: '国际机票', key: 1, icon: '/assets/header/icon-gj.png' },
     { title: '国内机票', key: 2, icon: '/assets/header/icon-gn.png' },
-    { title: '留学生机票', key: 3, icon: '/assets/header/icon-lxs.png'},
-    { title: '关于我们', key: 4, icon: '/assets/header/icon-gywm.png'},
-    { title: '联系我们', key: 5, icon: '/assets/header/icon-lxwm.png'}
+    { title: '留学生机票', key: 3, icon: '/assets/header/icon-lxs.png' },
+    { title: '关于我们', key: 4, icon: '/assets/header/icon-gywm.png' },
+    { title: '联系我们', key: 5, icon: '/assets/header/icon-lxwm.png' },
+    { title: '行业资讯', key: 6, icon: '/assets/header/icon-zixun.png' }
 ];
 
 // respond
 const { activeIndex } = toRefs(props);
 
 const className = computed(() => {
-    if (activeIndex.value === 4) return 'about-me';
+    if (activeIndex.value === 4 || activeIndex.value === 6) return 'about-me';
     return '';
 })
 </script>

@@ -1,16 +1,21 @@
 <!--
  * @Date: 2023-08-13 15:46:33
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-13 16:04:47
+ * @LastEditTime: 2023-08-29 18:55:06
  * @FilePath: /business-website/src/components/overseas_student_part/index.vue
 -->
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { ref } from 'vue';
+import AirInfo from './air_info.vue';
+const isDetail = ref(false);
+</script>
 
 <template>
     <div class="overseas-container">
         <img src="/assets/overseas_student/banner-lxs.jpg" alt="" class="placement-img">
-        <div class="placeholder">
-            <div class="overseas-area" />
+        <div class="ticket-info">
+            <div v-if="isDetail">222</div>
+            <AirInfo v-else @click="isDetail = true" />
         </div>
     </div>
 </template>
@@ -26,20 +31,10 @@
         display: block;
     }
 
-    .placeholder {
-        height: 175px;
-        width: 100vw;
+    .ticket-info {
+        width: 100%;
         background-color: rgb(241, 241, 241);
-        display: flex;
-        align-items: center;
-        .overseas-area {
-            background-color: #fff;
-            border-radius: 4px;
-            height: 60px;
-            width: 100vw;
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-        }
+        padding: 20px 0;
     }
 }
 </style>

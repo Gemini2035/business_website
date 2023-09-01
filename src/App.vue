@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-08-11 18:06:13
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-13 21:07:46
+ * @LastEditTime: 2023-09-01 12:04:23
  * @FilePath: /business-website/src/App.vue
 -->
 <script setup lang="ts">
@@ -14,6 +14,7 @@ import InternalPart from './components/internal_part/index.vue';
 import OverseasStudentPart from './components/overseas_student_part/index.vue';
 import AboutMePart from './components/about_me/index.vue';
 import LinkMe from './components/link_me/index.vue';
+import Tips from './components/tips/index.vue';
 import Footer from './components/footer.vue';
 
 // respond
@@ -35,6 +36,7 @@ const changeIndex = (target: number) => {
       <OverseasStudentPart v-else-if="index === 3" />
       <AboutMePart v-else-if="index === 4" />
       <LinkMe v-else-if="index === 5" />
+      <Tips v-else-if="index === 6" />
     </div>
     <Footer />
   </div>
