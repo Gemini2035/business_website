@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-09-02 15:09:22
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-09-02 20:22:13
+ * @LastEditTime: 2023-09-02 20:45:43
  * @FilePath: /business-website/src/components/international_part/flight.vue
 -->
 <script lang="ts" setup>
@@ -43,6 +43,7 @@ onMounted(async() => flightDataList.value = await (await fetch('/data/internatio
             </div>
             <img src="/assets/international/fire.png" alt="" class="icon">
         </div>
+        <p class="more-tip">更多优惠请咨询在线客服</p>
     </div>
 </template>
 
@@ -120,6 +121,14 @@ onMounted(async() => flightDataList.value = await (await fetch('/data/internatio
         height: 88px;
         border: 1px solid rgb(200, 200, 200);
         cursor: pointer;
+    }
+
+    .more-tip {
+        font-size: 20px;
+        color: #9a8256;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
     }
 }
 </style>
