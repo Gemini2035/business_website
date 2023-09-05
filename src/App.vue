@@ -1,11 +1,11 @@
 <!--
  * @Date: 2023-08-11 18:06:13
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-09-01 12:04:23
+ * @LastEditTime: 2023-09-05 15:05:12
  * @FilePath: /business-website/src/App.vue
 -->
 <script setup lang="ts">
-import { ref } from 'vue';
+import { provide, ref } from 'vue';
 
 import Header from './components/header.vue';
 import HomePart from './components/main_part/index.vue';
@@ -19,9 +19,13 @@ import Footer from './components/footer.vue';
 
 // respond
 const index = ref<number>(0);
+const overseaDetail = ref<boolean>(false);
+
+provide('overseaDetail', overseaDetail);
 
 // method
 const changeIndex = (target: number) => {
+  if (target === 3) overseaDetail.value = false;
   index.value = target;
 };
 </script>
