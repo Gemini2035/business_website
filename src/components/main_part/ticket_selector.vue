@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-08-11 20:37:20
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-14 19:13:34
+ * @LastEditTime: 2023-09-06 15:22:19
  * @FilePath: /business-website/src/components/main_part/ticket_selector.vue
 -->
 <script lang="ts" setup>
@@ -125,7 +125,7 @@ onMounted(() => {
 
 <template>
     <div class="book-ticket-container" @click="clearShowList">
-        <div class="book-title"><span>AU</span>预定国际航班</div>
+        <div class="book-title">预定国际航班</div>
         <div class="book-tree">
             <ul>
                 <li v-for="(item, index) in showData" :key="index" :class="index === 0 ?
@@ -260,17 +260,10 @@ onMounted(() => {
     box-sizing: border-box;
 
     .book-title {
-        font-size: 24px;
+        font-size: 32px;
         font-weight: 700;
         line-height: 44px;
         height: 50px;
-
-        span {
-            position: relative;
-            top: 3px;
-            font-size: 75px;
-            margin-right: 5px;
-        }
     }
 
     .book-tree {
