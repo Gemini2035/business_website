@@ -1,7 +1,7 @@
 <!--
  * @Date: 2023-08-12 18:15:13
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-09-06 10:18:10
+ * @LastEditTime: 2023-09-06 10:24:12
  * @FilePath: /business-website/src/components/footer.vue
 -->
 <script lang="ts" setup>
@@ -49,9 +49,7 @@ const footerClick = (target: number) => {
     let top: number = document.documentElement.scrollTop;
       const timeTop: number = setInterval(() => {
         document.documentElement.scrollTop = top -= 100;
-        if (top <= 0) {
-          clearInterval(timeTop);
-        }
+        if (top <= 0) clearInterval(timeTop);
       }, 5);
 }
 </script>
