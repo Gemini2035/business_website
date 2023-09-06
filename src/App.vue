@@ -42,7 +42,7 @@ const changeIndex = (target: number) => {
       <LinkMe v-else-if="index === 5" />
       <Tips v-else-if="index === 6" />
     </div>
-    <Footer />
+    <Footer :changeIndex="changeIndex" />
   </div>
 </template>
 

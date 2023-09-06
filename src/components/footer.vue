@@ -1,11 +1,12 @@
 <!--
  * @Date: 2023-08-12 18:15:13
  * @LastEditors: Gemini2035 76091679+Gemini2035@users.noreply.github.com
- * @LastEditTime: 2023-08-14 15:28:13
+ * @LastEditTime: 2023-09-06 10:18:10
  * @FilePath: /business-website/src/components/footer.vue
 -->
 <script lang="ts" setup>
 // static 
+const prop = defineProps<{ changeIndex: Function }>();
 const infoData: Array<{ title: string, content: string, icon: string }> = [
     {
         title: '方便快捷的服务',
@@ -30,8 +31,9 @@ const infoData: Array<{ title: string, content: string, icon: string }> = [
 ];
 const operateData: Array<{ title: string, key: number}> = [
     { title: '首页', key: 0 },
-    { title: '关于我们', key: 1 },
-    { title: '联系我们', key: 2 },
+    { title: '关于我们', key: 4 },
+    { title: '联系我们', key: 5 },
+    { title: '预定须知', key: 6 }
 ];
 const certificationData: Array<{ icon: string, url: string }> = [
     { icon: '/assets/footer/card-zzrz.png', url: ''},
@@ -39,11 +41,18 @@ const certificationData: Array<{ icon: string, url: string }> = [
     { icon: '/assets/footer/card-beian.png', url: ''},
     { icon: '/assets/footer/card-webbeian.png', url: ''},
     { icon: '/assets/footer/card-shiming.png', url: ''}
-]
+];
 
 // method
-const jumpTo = () => {
-    console.log('111')
+const footerClick = (target: number) => {
+    prop.changeIndex(target);
+    let top: number = document.documentElement.scrollTop;
+      const timeTop: number = setInterval(() => {
+        document.documentElement.scrollTop = top -= 100;
+        if (top <= 0) {
+          clearInterval(timeTop);
+        }
+      }, 5);
 }
 </script>
 
@@ -61,9 +70,9 @@ const jumpTo = () => {
             </div>
         </div>
         <div class="footer-operation">
-            <div v-for="item in operateData" :key="item.key" class="operate-item">
-                <span @click="jumpTo" class="operate-title">{{item.title}}</span>
-                <span class="divider" v-if="item.key !== operateData.length - 1">-</span>
+            <div v-for="(item, index) in operateData" :key="item.key" class="operate-item">
+                <span @click="footerClick(item.key)" class="operate-title">{{item.title}}</span>
+                <span class="divider" v-if="index !== operateData.length - 1">-</span>
             </div>
         </div>
         <div class="certification-container">

@@ -5,7 +5,7 @@
  * @FilePath: /business-website/src/components/header.vue
 -->
 <script setup lang="ts">
-import { computed, inject, toRefs } from 'vue';
+import { computed, toRefs } from 'vue';
 
 // static
 const props = defineProps<{ changeIndex: Function, activeIndex: number}>();
